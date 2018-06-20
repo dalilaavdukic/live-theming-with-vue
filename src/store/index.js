@@ -3,20 +3,18 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
-// initial state, whole reseller portal
 const state = {
-  brandColor: '#41B883'
+  themeColor: '#41B883'
 };
-// mutations
+
 const mutations = {
-  setBrandColor(state, color) {
-    state.brandColor = color;
+  setThemeColor(state, color) {
+    state.themeColor = color;
   }
 };
 
-// getters
 const getters = {
-  brandColor: state => state.brandColor,
+  themeColor: state => state.themeColor,
 };
 
 export default new Vuex.Store({

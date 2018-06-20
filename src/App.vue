@@ -1,16 +1,16 @@
 <template>
   <div id="app" class="container">
     <img src="./assets/logo.png">
-    <h1 class="title is-4">Live Branding with Styled-Components in Vue</h1>
+    <h1 class="title is-4">Live Theming with Styled-Components in Vue</h1>
     <hr>
     <div class="columns">
       <div class="column">
-        <color-picker style="width: 95%" class="column"/>
+        <theme-picker style="width: 95%" class="column"/>
       </div>
       <div class="column is-three-quarters">
-        <brand-title>Examples of Branded Components</brand-title>
-        <brand-btn>Branded Button</brand-btn>
-        <brand-btn>Another Branded Button</brand-btn>
+        <themed-title>Examples of Themed Components</themed-title>
+        <themed-btn>Themed Button</themed-btn>
+        <themed-btn>Another Themed Button</themed-btn>
       </div>
     </div>
   </div>
@@ -18,12 +18,12 @@
 
 <script>
 import 'bulma/css/bulma.css';
-import ColorPicker from './components/ColorPicker';
+import ThemePicker from './components/ThemePicker';
 
 export default {
   name: 'app',
   components: {
-    ColorPicker,
+    ThemePicker,
   },
 }
 </script>

@@ -1,14 +1,14 @@
 import Vue from 'vue';
 
-import BrandButton from './BrandButton';
-import BrandTitle from './BrandTitle';
+import ThemedButton from './ThemedButton';
+import ThemedTitle from './ThemedTitle';
 
-export const brandButton = Vue.component('brand-btn', {
-  components: { BrandButton },
-  template: `<BrandButton class="button" :color="$store.getters['brandColor']"><slot></slot></BrandButton>`,
+export const themedButton = Vue.component('themed-btn', {
+  components: { ThemedButton },
+  template: `<ThemedButton class="button" :color="$store.getters['themeColor']"><slot></slot></ThemedButton>`,
 });
 
-export const brandTitle = Vue.component('brand-title', {
-  components: { BrandTitle },
-  template: `<BrandTitle :color="$store.getters['brandColor']"><slot></slot></BrandTitle>`,
+export const themedTitle = Vue.component('themed-title', {
+  components: { ThemedTitle },
+  template: `<ThemedTitle :color="$store.getters['themeColor']"><slot></slot></ThemedTitle>`,
 });

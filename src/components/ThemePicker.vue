@@ -1,5 +1,5 @@
 <template>
-  <chrome-color-picker :value ="brandColor" @input="setBrandColor($event.hex)" :disableAlpha="true"/>
+  <chrome-color-picker :value ="themeColor" @input="setThemeColor($event.hex)" :disableAlpha="true"/>
 </template>
 
 <script>
@@ -12,12 +12,12 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'brandColor'
+      'themeColor'
     ]),
   },
   methods: {
     ...mapMutations([
-      'setBrandColor'
+      'setThemeColor'
     ]),
   },
 };
