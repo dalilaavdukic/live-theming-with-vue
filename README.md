@@ -1,18 +1,7 @@
-# live-branding-using-vue-and-styled-components
+# live-theming-using-vue-and-styled-components
 
 > A Vue.js project
 
-## Build Setup
+## About the project
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For more details please visit my [blog post](https://medium.com/@dalilaav/coloring-your-app-implementing-live-theming-with-vue-js-and-styled-components-29e428900394) about it.
